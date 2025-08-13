@@ -7,7 +7,7 @@ if not game:IsLoaded() then
 end
 repeat task.wait() until game.Players.LocalPlayer
 wait(0.25)
-loadstring(game:HttpGet("https://pastefy.app/305onFwa/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gato-bytes/asdasdasd.lua/refs/heads/main/o.lua"))()
     ]])
 end
 end
