@@ -1,16 +1,3 @@
-if game.PlaceId == 6403373529 then
-local teleportFunc = queueonteleport or queue_on_teleport or syn and syn.queue_on_teleport
-if teleportFunc then
-    teleportFunc([[
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-repeat task.wait() until game.Players.LocalPlayer
-wait(0.25)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Gato-bytes/asdasdasd.lua/refs/heads/main/o.lua"))()
-    ]])
-end
-end
 -- Espera o jogo carregar
 repeat task.wait() until game:IsLoaded()
 print("Jogo carregado, aguardando 5 segundos antes de iniciar...")
